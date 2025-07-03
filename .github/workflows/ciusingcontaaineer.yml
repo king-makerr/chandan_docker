@@ -5,7 +5,7 @@ on:
 env:
   DOCKER_USERNAME: ${{vars.DOCKER_NAME}}
   DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-  DOCKER_IMAGE: king-makerr/my-python-api-flask
+  DOCKER_IMAGE: kingmaker69/my-python-api-flask
 
 jobs:
   build-using-docker:
